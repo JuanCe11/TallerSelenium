@@ -25,7 +25,7 @@ public class LinkedinTest {
      * deberia estar el boton de buscar un empleo
      */
     @Test
-    public void shouldRedirectOferts() {
+    public void shouldExistButton() {
         WebElement element;
         String word;
         webDriver.get("https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiO-rfwloXsAhXoguAKHexjAnQQFjAAegQIAhAB&url=https%3A%2F%2Fco.linkedin.com%2F&usg=AOvVaw31DDNwat59yYx5XgAkUAGg");
